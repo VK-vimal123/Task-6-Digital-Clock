@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="clock-card">
+
+        <header class="top-bar">
+            <div class="brand">
+                <span class="brand-icon">◷</span>
+                <span>TIMEPIECE</span>
+            </div>
+
+            <button class="theme-btn" id="themeBtn">
+                ☼ Light Mode
+            </button>
+        </header>
+
+        <section class="clock-content">
+
+            <p class="small-title">YOUR PERSONAL TIME</p>
+
+            <h1 id="greeting">Good Evening.</h1>
+
+            <div class="time-display">
+                <span id="hours">08</span>
+                <span class="colon">:</span>
+                <span id="minutes">45</span>
+                <span class="seconds" id="seconds">32</span>
+                <span class="period" id="period">PM</span>
+            </div>
+
+            <p class="date" id="date"></p>
+
+            <div class="status">
+                <span class="status-dot"></span>
+                LIVE LOCAL TIME
+            </div>
+
+        </section>
+
+        <footer class="bottom-bar">
+
+            <p>Designed for every moment.</p>
+
+            <button class="format-btn" id="formatBtn">
+                12H / 24H
+            </button>
+
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
